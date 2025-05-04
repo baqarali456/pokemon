@@ -12,7 +12,7 @@ function Navbar() {
   const [name, setName] = useState('')
 
 
-  const types = ["Fire", "Water", "Grass"]
+  const types = ["Fire", "Water", "Grass","Poison","Bug","Flying","Water","Normal","Electric","Ground","Fire","Fairy","Dragon","Psychic","Ice","Rock"]
 
   const handleSearchPokemonByType = (type) => {
     dispatch(handleShowFilter(true))
