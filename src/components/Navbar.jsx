@@ -62,7 +62,7 @@ function Navbar() {
               </ul>
             </li>
           </ul>
-          <input onChange={(e) => setName(e.target.value)} value={name} className="sm:w-25 form-control me-2" type="search" placeholder="Search Pokemon" aria-label="Search" />
+          <input onChange={(e) => setName(e.target.value)} value={name} className="w-25  form-control me-2" type="search" placeholder="Search Pokemon" aria-label="Search" />
         </div>
       </div>
     </nav>
