@@ -7,7 +7,7 @@ function FilterList() {
   return (
     <>
     <h1 className='text-center mt-4'>Filter Pokemons</h1>
-    <div className=' d-flex mt-4 flex-row container flex-wrap gap-6'>
+    <div className=' d-flex mt-4 flex-row container flex-wrap gap-4'>
     {
         filterpokemons.length?filterpokemons.map(pokemon=>(
             <PokemonCard key={pokemon.id} {...pokemon}/>

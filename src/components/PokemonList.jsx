@@ -6,7 +6,7 @@ function PokemonList() {
     const pokemons = useSelector(state=>state.pokemons)
   return (
     <>
-    <h1 className='text-center mt-4 gap-6'>All Pokemons</h1>
+    <h1 className='text-center mt-4 gap-4'>All Pokemons</h1>
     <div className=' d-flex mt-4 flex-row container flex-wrap gap-5'>
         {
             pokemons.length ?pokemons.map(pokemon=>(

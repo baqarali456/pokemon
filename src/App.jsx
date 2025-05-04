@@ -18,15 +18,6 @@ function App() {
   const dispatch = useDispatch()
   const showList = useSelector(state => state.showlist)
 
-
-
-
-
-
-
-
-
-
   useEffect(() => {
     ; (async () => {
       try {
