@@ -53,7 +53,7 @@ function Navbar() {
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Types
               </a>
-              <ul className="dropdown-menu">
+              <ul className="dropdown-menu  overflow-auto" style={{height:"100px",width:"50px"}}>
                 {
                   types.map(type => (
                     <li onClick={() => handleSearchPokemonByType(type)} key={type}><a className="dropdown-item" href="#">{type}</a></li>
